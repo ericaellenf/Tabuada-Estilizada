@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabuada</title>
+<link rel="stylesheet" href="style.css">
+</head>
+                            <!--Cabeçalho (logo e img)-->
+<body>
+<header>
+        
+         <img src="logodnc.svg" alt="" width="100px" id="logodnc">
+         <h1>Tabuada</h1>
+
+</header>
+                           <!--PARTE DE GERAR TABUADA-->
+    
+<section>
+<div>
+  <p>
+    Escolha o Número! <br>
+    <input type="number" class="form" id="num">
+   </p>
+   
+   <p>
+    Em quantas vezes será a multiplicação?<br>
+    <input type="number" class="form" id="end">
+  </p>
+    
+  <span>
+    <input onclick="Tabuada()" type="button" value="Calcule!" id="but">
+   </span>
+</div>
+     <div id="resposta">
+        Preencha os valores acima!
+     </div>           
+</section>
+<script src="script.js"></script>
+</body>
+</html>
