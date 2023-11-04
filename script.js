@@ -1,4 +1,4 @@
-    alert("Oi moooooo, fui eu que fiz!!")
+
     function Tabuada(){
     var num = window.document.getElementById('num')
     var end = document.getElementById('end')
